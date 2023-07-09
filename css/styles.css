@@ -1,5 +1,47 @@
-.link-logo{
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+    --iriscolor: #4D5AE5;
+    --navyblue: #2E2F42;
+    --navcolor: black;
+    --oceancolor: #2196F3;
+}
+
+.link-logo {
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
     font-size: 30px;
     line-height: 1.5px;
+}
+
+.web-logo {
+    color: var(--iriscolor);
+}
+
+.studio-logo {
+    color: var(--navyblue);
+}
+
+.navbar .pages {
+    color: var(--navcolor);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+}
+
+.lists{
+    list-style-type: none;
+}
+
+.navbar .pages:hover,
+.navbar .pages:focus,
+.navbar .pages.pages:currentoption,
+.contact-info .info:hover,
+.contact-info .info:focus
+    color: var(--oceancolor);
+}
+.contact-info{
+    color: var(--navcolor);
 }
