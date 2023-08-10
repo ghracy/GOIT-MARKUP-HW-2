@@ -31,5 +31,15 @@
   }
   
   .pages {
-    text-decoration: none !important; 
+    text-decoration: none; 
   } 
+
+  .pages {
+    color: #000; 
+  }
+  
+  .pages:hover {
+    color: #0000ff;
+  } 
+
+  
