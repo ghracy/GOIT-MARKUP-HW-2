@@ -1,45 +1,42 @@
-.link-logo {
-    text-decoration: none;
+:root {
+  --iris: #4d5ae5;
+  --navyblue: #2e2f42;
+  --ocean: #404bff;
+  --white: #fff;
+  --slate: #434455;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+}
 
-  }
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
 
-  .web-logo {
-    color: var(--iris, #4D5AE5);
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 21px; 
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-  }
-  
-  .studio-logo {
-    color: var(--navyblue, #2E2F42);
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 21px;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-  }
+.logo {
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
 
-  ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  
-  .pages {
-    text-decoration: none; 
-  } 
+.weblogo {
+  color: var(--iris, #4d5ae5)
+}
 
-  .pages {
-    color: #000; 
-  }
-  
-  .pages:hover {
-    color: #0000ff;
-  } 
+.studiologo {
+  color: var(--navyblue, #2e2f42)
+}
 
-  
+.linkpage {
+  text-decoration: none;
+  color: var(--navyblue, #2e2f42)
+  font-weight: 500;
+}

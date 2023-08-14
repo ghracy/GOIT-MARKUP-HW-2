@@ -5,138 +5,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>homework 2</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+    />
     </head>
     <body>
         <!--header part-->
         <header>
             <nav>
-                <a href="./index.html" class="link-logo">
-                    <span class="web-logo">WEB</span>
-                    <span class="studio-logo">STUDIO</span>
+                <a href="./index.html" class="logo">
+                    <span class="weblogo">WEB</span><span class="studiologo">STUDIO</span>
                 </a>
-                <ul class="navbar lists">
+                <ul class="nav list">
                     <li>
-                        <a href="#" class="pages currentoption">Studio</a>
+                        <a href="#"./index.html" class="linkpage-visited">Studio</a>
                     </li>
                     <li>
-                        <a href="./portfolio.html" class="pages">Portfolio</a>
+                        <a href="#"./portfolio.html" class="linkpage link-active">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#" class="pages">Contacts</a>
+                        <a href="#" class="linkpage">Contacts</a> 
                     </li>
                 </ul>
             </nav>
 
-            <ul class="contact-info lists"> 
+            <ul class="contactinfo list"> 
                 <li>
-                    <a href="mailto:info@devstudio.com" class="info">info@devstudio.com</a>
+                    <a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a>
                 </li>
                 <li>
-                    <a href="tel:+110001111111" class="info">+11 (000) 111-11-11</a>
+                    <a href="tel:+110001111111" class="contacts">+11 (000) 111-11-11</a>
                 </li>
             </ul>
         </header>
 
          <!--this is the main section-->
-        <main>
+        <main class="porfolio-page">
             <!--section one-->
-            <section class="section1 bg-section1">
-                <h1 class="h1-title"> 
-                    Effective Solutions<br />for Your Business
-                </h1>
-                <button type="button" class="btn primary">Order Service</button>
-            </section>
-            <!--section two-->
-            <section class="list-section">
-                <div>
-                    <ul class="criteria lists">
-                        <li>
-                            <h3 class="titlelist">Strategy</h3>
-                            <p class="desclist">
-                                Our goal is to identify the business<br>problem to walk away with the<br>perfect and creative
-                            solution.
-                            </p>
-                        </li>
-                        <li>
-                            <h3 class="titlelist">Punctuality</h3>
-                            <p class="desclist">
-                            Bring the key message to the<br>brand's audience for the best price<br>within the shortest possible
-                            time.
-                            </p>
-                        </li>
-                        <li>
-                            <h3 class="titlelist">Diligence</h3>
-                            <p class="desclist">
-                            Research and confirm brands that<br>present the strongest digital growth<br>opportunities and minimize
-                            risk.
-                            </p>
-                        </li>
-                        <li>
-                            <h3 class="titlelist">Technologies</h3>
-                            <p class="desclist">
-                            Design practice focus on digital<br>experiences. We bring forth a deep<br>passion for problem-solving.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <!--section three-->
-            <section class="section3">
-                <div>
-                    <h2 class="sectiontitle">What Are We Doing</h2>
-                        <ul class="services lists">
-                            <li>
-                                <img src="./images/img-1-monitor.jpg" alt="monitor" width="370" height="294" />
-                            </li>
-                            <li>
-                                <img src="./images/img-2-cellfone.jpg" alt="cellfone" width="370" height="294" />
-                            </li>
-                            <li>
-                                <img src="./images/img-3-combi.jpg" alt="combi" width="370" height="294" />
-                            </li>
-                        </ul>
-                </div> 
-            </section>
-            <!--section four-->
-            <section class="section4">
-                <div>
-                    <h2 class="sectiontitle">Our Team</h2>
-                    <ul class="team lists">
-                        <li>
-                            <img src="./images/img-mark.jpg" alt="mark" width="270" height="260" />
-                        </li>
-                            <h3 class="teamname">Mark Guerrero</h3>
-                            <p class="position">Product Designer</p>
-                        <li>
-                            <img src="./images/img-tom.jpg" alt="tom" width="270" height="260" />
-                            <h3 class="teamname">Tom Ford</h3>
-                            <p class="position">Frontend Developer</p>
-                        </li>
-                        <li>
-                            <img src="./images/img-camila.jpg" alt="camila" width="270" height="260" />
-                            <h3 class="teamname">Camila Garcia</h3>
-                            <p class="position">Marketing</p>
-                        </li>
-                        <li>
-                            <img src="./images/img-daniel.jpg" alt="daniel" width="270" height="260" />
-                            <h3 class="teamname">Daniel Wilson</h3>
-                            <p class="position">UI Designer</p>
-                        </li>
-                    </ul>
-                </div> 
-            </section>
+            <section>
+                <ul class="filter list"
+                    <li>
+                        <button type="button" class="filter-button active-filter"> All</button>
+                    </li>
+                    <li>
+                        <button type="button" class="filter-button active-filter"> Web Site</button>
+                    </li>
+                    <li>
+                        <button type="button" class="filter-button active-filter"> App</button>
+                    </li>
+                    <li>
+                        <button type="button" class="filter-button active-filter"> Design</button>
+                    </li>
+                    <li>
+                        <button type="button" class="filter-button active-filter"> Marketing</button>
+                    </li>
+                </ul>
+                <ul class="porfolio list"
+                    <li>
+                        <img src="./images/picture-1.jpg" alt="bank app" width="360" height="300" />
+                        <h3 class="portfolio-service">Banking App Interface Concept</h3>
+                        <p class="portfolio-category">App</p>
+                    </li>
+                    <li>
+                        <img src="./images/picture-2.jpg" alt="cashless" width="360" height="300" />
+                        <h3 class="portfolio-service">Cashless Payment</h3>
+                        <p class="portfolio-category">Marketing</p>
+                    </li>
+                    <li>
+                        <img src="./images/picture-3.jpg" alt="meditation app" width="360" height="300" />
+                        <h3 class="portfolio-service">Meditation App</h3>
+                        <p class="portfolio-category">App</p>
+                    </li>
+                    <li>
+                        <img src="./images/picture-4.jpg" alt="taxi service" width="360" height="300" />
+                        <h3 class="portfolio-service">Taxi Service</h3>
+                        <p class="portfolio-category">Marketing</p>
+                    </li>
+                    <li>
+                        <img src="./images/picture-5.jpg" alt="screen illustrations" width="360" height="300" />
+                        <h3 class="portfolio-service">Screen Illustrations</h3>
+                        <p class="portfolio-category">Design</p>
+                    </li>
+                    <li>
+                        <img src="./images/picture-6.jpg" alt="online courses" width="360" height="300" />
+                        <h3 class="portfolio-service">Online Courses</h3>
+                        <p class="portfolio-category">Marketing</p>
+                    </li>
+                    <li>
+                        <img src="./images/picture-7.jpg" alt="instagram stories" width="360" height="300" />
+                        <h3 class="portfolio-service">Instagram Stories</h3>
+                        <p class="portfolio-category">Design</p>
+                    </li>
+                    <li>
+                        <img src="./images/picture-8.jpg" alt="organic food" width="360" height="300" />
+                        <h3 class="portfolio-service">Organic Food</h3>
+                        <p class="portfolio-category">Web Site</p>
+                    </li>
+                    <li>
+                        <img src="./images/picture-9.jpg" alt="fresh coffee" width="360" height="300" />
+                        <h3 class="portfolio-service">Fresh Coffee</h3>
+                        <p class="portfolio-category">Web Site</p>
+                    </li>
+                </ul>
+                      
         </main>
 
         <!--this is the footer-->
-        <footer class="lastpart footerbg">
+        <footer class="footer">
             <div>
-                <a href="./index.html" class="link-logo">
-                    <span class="web-logo">WEB</span>
-                    <span class="studio-logo2">STUDIO</span>
+                <a href="./index.html" class="logo">
+                    <span class="weblogo">WEB</span><span class="studiologo2">STUDIO</span>
                 </a>
-                <p class="lastword">
-                    Increase the flow of costumers and<br />sales for your business with digital<br />marketing & growth
-                solutions.
+                <p class="motto">
+                    Increase the flow of costumers and<br />sales for your business with digital<br />marketing & growth solutions.
                 </p>
             </div>
         </footer>
