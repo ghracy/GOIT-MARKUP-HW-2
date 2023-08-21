@@ -53,7 +53,7 @@ body {
 
 .contacts:hover,
 .contacts:focus {
-  color: var(--ocean, #404bbf)
+  color: var(--ocean, #404bbf);
 }
 
 .list {
@@ -88,10 +88,10 @@ body {
 .order-button:hover,
 .order-button:focus {
   color: var(--white, #fff)
-  background-color: var(--ocean, #05092f)
+  background-color; var(--ocean, #05092f);
 }
 
-.section2 {
+.section-two {
   background-color: var(--white, #fff);
 }
 
