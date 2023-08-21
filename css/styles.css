@@ -40,3 +40,72 @@ body {
   color: var(--navyblue, #2e2f42)
   font-weight: 500;
 }
+
+.linkpage:hover,
+.linkpage:focus {
+  color: var(--ocean, #404bbf);
+}
+
+.link-active {
+  color: var(--slate, #434455);
+  text-decoration: none;
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--ocean, #404bbf)
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sec1-title {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 60px;
+  letter-spacing: 1.12px;
+}
+
+.order-button {
+  cursor: pointer;
+  color: var (--white, #fff);
+  background: var(--iris, #4d5ae5);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0 px rgba(0, 0, 0, 0.15);
+}
+
+.order-button:hover,
+.order-button:focus {
+  color: var(--white, #fff)
+  background-color: var(--ocean, #05092f)
+}
+
+.section2 {
+  background-color: var(--white, #fff);
+}
+
+.about-title {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+
+.about-description {
+  color: var(--slate, #434455);
+}
+
+.section3 {
+  background-color: var(--white, #fff);
+}
