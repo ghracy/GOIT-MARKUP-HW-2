@@ -17,7 +17,7 @@ body {
   letter-spacing: 0.32px;
 }
 
-.logo {
+.logo-link {
   text-decoration: none;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -27,15 +27,15 @@ body {
   text-transform: uppercase;
 }
 
-.weblogo {
+.web {
   color: var(--iris, #4d5ae5)
-}
+  }
 
-.studiologo {
+.studio {
   color: var(--navyblue, #2e2f42)
 }
 
-.linkpage {
+.page :current {
   text-decoration: none;
   color: var(--navyblue, #2e2f42);
   font-weight: 500;
