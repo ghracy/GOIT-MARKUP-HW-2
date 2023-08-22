@@ -37,7 +37,7 @@ body {
 
 .linkpage {
   text-decoration: none;
-  color: var(--navyblue, #2e2f42)
+  color: var(--navyblue, #2e2f42);
   font-weight: 500;
 }
 
@@ -87,8 +87,8 @@ body {
 
 .order-button:hover,
 .order-button:focus {
-  color: var(--white, #fff)
-  background-color; var(--ocean, #05092f);
+  color: var(--white, #fff);
+  background-color: var(--ocean, #05092f);
 }
 
 .section-two {
